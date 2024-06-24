@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    color: black;
 }
 
 form {
@@ -13,11 +14,12 @@ form {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
     height: 100vh;
-    background-image: url("Wallpaper.jpg");
+    /* background-image: url("Wallpaper.jpg"); */
     background-size:cover ;
     background-repeat: no-repeat;
     display: flex;
@@ -29,8 +31,7 @@ body {
     height: 410px;
     width: 500px;
     border-radius: 15px;
-    color: #fff;
-    border: 2px solid white;
+    border: 2px solid black;
     transition: 0.4s ease;
 }
 
@@ -64,13 +65,13 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
-    border-bottom: solid rgba(255, 255, 255, .2);
+    border-bottom: solid black;
     padding: 0 0 0 40px;
     font-size: 16px;
 }
 
 .input-box ::placeholder {
-    color:#fff;
+    color:black;
 }
 
 .input-box i {
@@ -97,7 +98,7 @@ body {
 }
 
 .forgot a {
-    color: #fff;
+    color: black;
     margin-right: 30px;
     transition: .3s ease;
 }
@@ -114,7 +115,8 @@ body {
     left: 200px;
     width: 20%;
     height: 35px;
-    background: #fff;
+    color: #fff;
+    background: black;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -132,8 +134,8 @@ body {
 }
 
 .register a {
+    color: black;
     font-weight: 700;
-    color: #fff;
     transition: .3s ease;
 }
 
